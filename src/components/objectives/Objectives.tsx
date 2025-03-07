@@ -73,7 +73,7 @@ export default function Objectives() {
                 <label className="radio-button">
                     <input type="radio" name="option" value="Aumento de masa muscular" />
                     <img src="src/assets/Objective/gym.svg" alt="gym" />
-                    <p>Aumento de mas muscular</p>
+                    <p>Aumento de masa muscular</p>
                 </label>
                 <label className="radio-button">
                     <input type="radio" name="option" value="Control de enfermedades" />
