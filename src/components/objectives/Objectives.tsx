@@ -19,7 +19,7 @@ export default function Objectives() {
   return (
     <main className='objectives'>
         <div className='title'>
-            <img src="src/assets/apple-diet-svgrepo-com.svg" alt="apple" />
+            <img src="public/apple-diet-svgrepo-com.svg" alt="apple" />
             <h2>Objetivos</h2>
         </div>
         <form className='user-info' onSubmit={handleSubmit}>
@@ -62,22 +62,22 @@ export default function Objectives() {
             <div className="options">
                 <label className="radio-button">
                     <input type="radio" name="option" value="perdida de peso" />
-                    <img src="src/assets/Objective/weight-scales-svgrepo-com.svg" alt="scales" />
+                    <img src="public/Objective/weight-scales-svgrepo-com.svg" alt="scales" />
                     <p>Pérdida de peso</p>
                 </label>
                 <label className="radio-button">
                     <input type="radio" name="option" value="alimentacion saludable" />
-                    <img src="src/assets/Objective/vegetables-salad-svgrepo-com.svg" alt="vegetables" />
+                    <img src="public/Objective/vegetables-salad-svgrepo-com.svg" alt="vegetables" />
                     <p>Alimentación saludable</p>
                 </label>
                 <label className="radio-button">
                     <input type="radio" name="option" value="Aumento de masa muscular" />
-                    <img src="src/assets/Objective/weight-gym-svgrepo-com.svg" alt="gym" />
+                    <img src="public/Objective/weight-gym-svgrepo-com.svg" alt="gym" />
                     <p>Aumento de mas muscular</p>
                 </label>
                 <label className="radio-button">
                     <input type="radio" name="option" value="Control de enfermedades" />
-                    <img src="src/assets/Objective/heart-rate-1-svgrepo-com.svg" alt="heart" />
+                    <img src="public/Objective/heart-rate-1-svgrepo-com.svg" alt="heart" />
                     <p>Control de enfermedades</p>
                 </label>
             </div>
