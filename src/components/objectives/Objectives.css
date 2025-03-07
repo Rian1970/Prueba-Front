@@ -1,0 +1,129 @@
+/* Diseño del formulario */
+.objectives{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left; 
+    display: flex;
+    flex-direction: column;
+    /* max-width: 600px;  */
+    margin: 0 auto;
+    padding: 10px 160px;
+}
+
+/* Contenedor del titul */
+.title{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilo del icono */
+.title > img{
+    width: 29px;
+    height: auto;
+    margin-right: 5px;
+}
+
+/* Estilo formulario */
+.user-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+/* Primera seccion de preguntas */
+.first-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.first-form > div{
+    margin-right: 15%;
+}
+
+/* Solo con borde abajo */
+input{
+    border: none;
+    border-bottom: 2px solid #F7F7F7;
+    outline: none; 
+}
+
+input:hover, input:focus{
+    border-bottom: 2px solid #FFD61B;
+}
+
+/* Pregunta de radiobutton */
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.radio-group{
+    display: flex;
+    gap: 10px;
+}
+
+.radio-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.radio-button input{
+    display: none; 
+}
+
+.radio-button img{
+    width: 27px;
+    height: auto;
+}
+
+.radio-button p{
+    font-size: 15px;
+}
+
+.radio-button input:checked ~ p{
+    font-weight: bold;
+}
+
+.radio-button:hover {
+    background-color: #f0f0f0;
+}
+
+.radio-button:has(input:checked) {
+    border-color: #FFD61B;
+    background-color: #FFFCF0;
+}
+
+.first-form  .min-weight{
+    margin-right: 0;
+}
+
+.min-weight, .max-weight{
+    width: 230px;
+}
+
+
+/* Estilo del botón */
+.user-info #button-container button {
+    display: flex; 
+    justify-content: center; 
+    width: 15%;
+    padding: 10px 20px; 
+    background-color: #FFD61B;
+    border: none;
+    border-radius: 28px; 
+    cursor: pointer; 
+    font-size: 14px; 
+    color: #000; 
+}

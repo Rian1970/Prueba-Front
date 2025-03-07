@@ -1,0 +1,78 @@
+/* Estilo para el párrafo, reducir el espacio entre el texto y la primer fila */
+.user-data > p {
+    margin-bottom: 0; 
+}
+
+/* Alinea el icono y disminuye la fuente */
+label{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/* Tamaño del icono */
+label > img{
+    width: 15px;
+    height: auto;
+    margin-right: 3px;
+}
+
+/* Diseño del formulario */
+.user-data{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: left; 
+    gap: 40px; 
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Para que quede arriba label y abajo input, tambien calcula la mitad y le resta 25px */
+.user-data > div{
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 25px); 
+}
+
+/* Solo con borde abajo */
+input{
+    border: none;
+    border-bottom: 2px solid #F7F7F7;
+    outline: none; 
+}
+
+input:hover, input:focus{
+    border-bottom: 2px solid #FFD61B;
+}
+
+.input-edad{
+    width: 90px;
+}
+
+.input-telefono{
+    width: 185px;
+}
+
+/* Contenedor del botón */
+#button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Estilo del botón */
+#button-container button {
+    display: flex; 
+    justify-content: center; 
+    width: 25%;
+    padding: 10px 20px; 
+    background-color: #FFD61B;
+    border: none;
+    border-radius: 28px; 
+    cursor: pointer; 
+    font-size: 14px; 
+    color: #000; 
+}

@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+header > img{
+    align-self: center;
+    width: 48px;
+    height: 34px;
+}
+
+button{
+    display: flex;
+    align-items: center;  
+    background-color: white;
+    border: none;
+}
+
+button > img{
+    width: 30px;
+    height: auto;
+}
