@@ -23,7 +23,7 @@ export default function Welcome() {
     if (location.pathname === '/') {
         return (
           <div className="bienvenida">
-            <img src="src\assets\person-circle-svgrepo-com.svg" alt="person-pic" className='usuario' />
+            <img src="src/assets/person-circle-svgrepo-com.svg" alt="person-pic" className='usuario' />
             <div>
                 <span className="saludo">¡Bienvenida</span>
                 <br />
@@ -36,7 +36,7 @@ export default function Welcome() {
     return (
       <div className='nutricion'>
         <div>
-            <img src="src\assets\person-circle-svgrepo-com.svg" alt="person-pic" className='usuario' />
+            <img src="src/assets/person-circle-svgrepo-com.svg" alt="person-pic" className='usuario' />
             <div>
                 <span className="saludo">Nutrición</span>
                 <br />
@@ -48,19 +48,19 @@ export default function Welcome() {
         </div>
         <div className='iconos'>
             <div style={{ backgroundColor: icons > 1 ? '#FFD61B' : '#D9D9D9' }}>
-                <img src="src\assets\Welcome\apple-diet-svgrepo-com.svg" alt="apple" />
+                <img src="src/assets/Welcome/apple-diet-svgrepo-com.svg" alt="apple" />
             </div>
             <div style={{ backgroundColor: icons > 2 ? '#FFD61B' : '#D9D9D9' }}>
-                <img src="src\assets\Welcome\health-care-love-svgrepo-com.svg" alt="hearth" />
+                <img src="src/assets/Welcome/health-care-love-svgrepo-com.svg" alt="hearth" />
             </div>
             <div>
-                <img src="src\assets\Welcome\fruits-pear-svgrepo-com.svg" alt="fruits" />
+                <img src="src/assets/Welcome/fruits-pear-svgrepo-com.svg" alt="fruits" />
             </div>
             <div>
-                <img src="src\assets\Welcome\clock-svgrepo-com.svg" alt="clock" />
+                <img src="src/assets/Welcome/clock-svgrepo-com.svg" alt="clock" />
             </div>
             <div>
-                <img src="src\assets\Welcome\date-svgrepo-com.svg" alt="date" />
+                <img src="src/assets/Welcome/date-svgrepo-com.svg" alt="date" />
             </div>
         </div>
       </div>

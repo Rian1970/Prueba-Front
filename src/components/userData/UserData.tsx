@@ -23,7 +23,7 @@ export default function UserData() {
             <p>Para comenzar, ayúdanos a verificar tus datos.</p>
             <div>
                 <label htmlFor="name">
-                    <img src="src\assets\UserData\person-svgrepo-com.svg" alt="person" />
+                    <img src="src/assets/UserData/person-svgrepo-com.svg" alt="person" />
                     Nombre
                 </label>
                 <input 
@@ -37,7 +37,7 @@ export default function UserData() {
             </div>
             <div className='input-edad'>
                 <label htmlFor="age">
-                    <img src="src\assets\UserData\birthday-cake-celebration-festival-party-svgrepo-com.svg" alt="birthday" />
+                    <img src="src/assets/UserData/birthday-cake-celebration-festival-party-svgrepo-com.svg" alt="birthday" />
                     Edad
                 </label>
                 <input 
@@ -51,7 +51,7 @@ export default function UserData() {
             </div>
             <div>
                 <label htmlFor="mail">
-                    <img src="src\assets\UserData\mail-svgrepo-com.svg" alt="mail" />
+                    <img src="src/assets/UserData/mail-svgrepo-com.svg" alt="mail" />
                     Correo electrónico
                 </label>
                 <input 
@@ -65,7 +65,7 @@ export default function UserData() {
             </div>
             <div className='input-telefono'>
                 <label htmlFor="phone">
-                    <img src="src\assets\UserData\smartphone-svgrepo-com.svg" alt="smartphone" />
+                    <img src="src/assets/UserData/smartphone-svgrepo-com.svg" alt="smartphone" />
                     Teléfono celular
                 </label>
                 <input 
@@ -79,7 +79,7 @@ export default function UserData() {
             </div>
             <div>
                 <label htmlFor="job">
-                    <img src="src\assets\UserData\location-pin-alt-1-svgrepo-com.svg" alt="location" />
+                    <img src="src/assets/UserData/location-pin-alt-1-svgrepo-com.svg" alt="location" />
                     Lugar de trabajo
                 </label>
                 <input 
