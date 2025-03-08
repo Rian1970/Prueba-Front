@@ -23,7 +23,7 @@ export default function UserData() {
             <p>Para comenzar, ayúdanos a verificar tus datos.</p>
             <div>
                 <label htmlFor="name">
-                    <img src="src/assets/UserData/person.svg" alt="person" />
+                    <img src="/assets/UserData/person.svg" alt="person" />
                     Nombre
                 </label>
                 <input 
@@ -37,7 +37,7 @@ export default function UserData() {
             </div>
             <div className='input-edad'>
                 <label htmlFor="age">
-                    <img src="src/assets/UserData/birthday.svg" alt="birthday" />
+                    <img src="/assets/UserData/birthday.svg" alt="birthday" />
                     Edad
                 </label>
                 <input 
@@ -51,7 +51,7 @@ export default function UserData() {
             </div>
             <div>
                 <label htmlFor="mail">
-                    <img src="src/assets/UserData/mail.svg" alt="mail" />
+                    <img src="/assets/UserData/mail.svg" alt="mail" />
                     Correo electrónico
                 </label>
                 <input 
@@ -65,7 +65,7 @@ export default function UserData() {
             </div>
             <div className='input-telefono'>
                 <label htmlFor="phone">
-                    <img src="src/assets/UserData/smartphone.svg" alt="smartphone" />
+                    <img src="/assets/UserData/smartphone.svg" alt="smartphone" />
                     Teléfono celular
                 </label>
                 <input 
@@ -79,7 +79,7 @@ export default function UserData() {
             </div>
             <div>
                 <label htmlFor="job">
-                    <img src="src/assets/UserData/location.svg" alt="location" />
+                    <img src="/assets/UserData/location.svg" alt="location" />
                     Lugar de trabajo
                 </label>
                 <input 

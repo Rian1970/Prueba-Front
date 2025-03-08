@@ -19,7 +19,7 @@ export default function Objectives() {
   return (
     <main className='objectives'>
         <div className='title'>
-            <img src="src/assets/apple.svg" alt="apple" />
+            <img src="/assets/apple.svg" alt="apple" />
             <h2>Objetivos</h2>
         </div>
         <form className='user-info' onSubmit={handleSubmit}>
@@ -62,22 +62,22 @@ export default function Objectives() {
             <div className="options">
                 <label className="radio-button">
                     <input type="radio" name="option" value="perdida de peso" />
-                    <img src="src/assets/Objective/weight.svg" alt="scales" />
+                    <img src="/assets/Objective/weight.svg" alt="scales" />
                     <p>Pérdida de peso</p>
                 </label>
                 <label className="radio-button">
                     <input type="radio" name="option" value="alimentacion saludable" />
-                    <img src="src/assets/Objective/vegetables.svg" alt="vegetables" />
+                    <img src="/assets/Objective/vegetables.svg" alt="vegetables" />
                     <p>Alimentación saludable</p>
                 </label>
                 <label className="radio-button">
                     <input type="radio" name="option" value="Aumento de masa muscular" />
-                    <img src="src/assets/Objective/gym.svg" alt="gym" />
+                    <img src="/assets/Objective/gym.svg" alt="gym" />
                     <p>Aumento de masa muscular</p>
                 </label>
                 <label className="radio-button">
                     <input type="radio" name="option" value="Control de enfermedades" />
-                    <img src="src/assets/Objective/heart.svg" alt="heart" />
+                    <img src="/assets/Objective/heart.svg" alt="heart" />
                     <p>Control de enfermedades</p>
                 </label>
             </div>
