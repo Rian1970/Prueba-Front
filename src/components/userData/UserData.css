@@ -47,11 +47,11 @@ input:hover, input:focus{
     border-bottom: 2px solid #FFD61B;
 }
 
-.input-edad{
+#input-edad{
     width: 90px;
 }
 
-.input-telefono{
+#input-telefono{
     width: 185px;
 }
 

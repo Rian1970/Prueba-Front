@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 import './UserData.css'
-// import { usePaso } from '../UserContext/UserContext';
 
 export default function UserData() {
     const [inputName, setInputName] = useState('Oscar Adan Reyes Lozada');
-    const [inputAge, setInputAge] = useState('38 años');
+    const [inputAge, setInputAge] = useState('38 años')
     const [inputMail, setInputMail] = useState('osadan12@gmail.com');
     const [inputPhone, setInputPhone] = useState('01 55 553036 7508');
     const [inputJob, setInputJob] = useState('Mega Serviplaza El Rosario Cdmx');
-    // const { siguientePaso } = usePaso();
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -35,7 +33,7 @@ export default function UserData() {
                     required
                 />
             </div>
-            <div className='input-edad'>
+            <div id='input-edad'>
                 <label htmlFor="age">
                     <img src="/assets/UserData/birthday.svg" alt="birthday" />
                     Edad
@@ -45,7 +43,7 @@ export default function UserData() {
                     name="edad" 
                     placeholder='38 años'
                     value={inputAge}
-                    onChange={(e)=>setInputAge(e.target.value)} 
+                    onChange={(e)=>setInputAge(e.target.value)}
                     required
                 />
             </div>
@@ -63,7 +61,7 @@ export default function UserData() {
                     required
                 />
             </div>
-            <div className='input-telefono'>
+            <div id='input-telefono'>
                 <label htmlFor="phone">
                     <img src="/assets/UserData/smartphone.svg" alt="smartphone" />
                     Teléfono celular

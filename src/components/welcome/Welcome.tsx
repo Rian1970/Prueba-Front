@@ -25,7 +25,7 @@ export default function Welcome() {
           <div className="bienvenida">
             <img src="/assets/person.svg" alt="person-pic" className='usuario' />
             <div>
-                <span className="saludo">¡Bienvenida</span>
+                <span className="saludo">¡Bienvenido</span>
                 <br />
                 <span className="nombre">Oscar Adan</span>
             </div>
