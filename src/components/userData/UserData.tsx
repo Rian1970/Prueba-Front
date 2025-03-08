@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './UserData.css'
 
 export default function UserData() {
@@ -7,6 +7,17 @@ export default function UserData() {
     const [inputMail, setInputMail] = useState('osadan12@gmail.com');
     const [inputPhone, setInputPhone] = useState('01 55 553036 7508');
     const [inputJob, setInputJob] = useState('Mega Serviplaza El Rosario Cdmx');
+    const [error, setError] = useState("");
+
+    useEffect(() => {
+        const emailRegex = /^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/;
+    
+        if (inputMail && !emailRegex.test(inputMail)) {
+        setError("Correo inválido");
+        } else {
+        setError("");
+        }
+    }, [inputMail]);
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -60,6 +71,7 @@ export default function UserData() {
                     onChange={(e)=>setInputMail(e.target.value)} 
                     required
                 />
+                {error && <p style={{ color: "red", margin: 0, fontSize: 10}}>{error}</p>}
             </div>
             <div id='input-telefono'>
                 <label htmlFor="phone">
