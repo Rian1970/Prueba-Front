@@ -43,6 +43,7 @@ input{
     outline: none; 
 }
 
+/* Estilos del input para enfocar y encima */
 input:hover, input:focus{
     border-bottom: 2px solid #FFD61B;
 }
