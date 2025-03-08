@@ -1,12 +1,24 @@
-# React + Vite
+# Instalación del Proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Paso 1: Descarga y descompresión
 
-Currently, two official plugins are available:
+1. Descarga el proyecto en ZIP.
+2. Descomprime el ZIP en cualquier carpeta que desees.
+3. Abre una terminal y navega al directorio donde descomprimiste el archivo por ejemplo: `C:/Users/TuUsuario/Downloads`
+4. Una vez en el directorio ejecuta descarga las dependencias del proyecto:
+  ```
+   npm install
+   ```
+5. Para iniciar el servidor de desarrollo, usa:
+ ```
+   npm run dev
+   ```
+6. Para ver la aplicación abre cualquier navegador web en esta ruta:
+  ```
+   localhost:5173
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
